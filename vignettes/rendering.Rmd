@@ -1,9 +1,20 @@
 ---
 title: "Output Rendering"
+description: >
+  Learn how too set up search for your pkgdown site using 
+  [DocSearch](https://community.algolia.com/docsearch/) from Algolia.
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Search}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
-```{r include = FALSE}
-knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
 ```
 
 This vignette tests pkgdown output rendering for several use cases.
