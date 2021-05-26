@@ -1,11 +1,11 @@
 ---
-title: "Output Rendering"
+title: "Rendering"
 description: >
   Learn how too set up search for your pkgdown site using 
   [DocSearch](https://community.algolia.com/docsearch/) from Algolia.
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Output Rendering}
+  %\VignetteIndexEntry{Rendering}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -125,19 +125,19 @@ Test spacing above widget.
 
 ```{r, echo=FALSE}
 # set seed for reproducible widget id
-if (requireNamespace("htmltools", quietly = TRUE)) {
-  htmlwidgets::setWidgetIdSeed(42)
-}
+#if (requireNamespace("htmltools", quietly = TRUE)) {
+# htmlwidgets::setWidgetIdSeed(42)
+#}
 
-library(leaflet)
+#library(leaflet)#
 
-leaflet() %>%
-  addTiles() %>%
-  addMarkers(
-    lng=174.768,
-    lat=-36.852,
-    popup="The birthplace of R"
-  )
+#leaflet() %>%
+#  addTiles() %>%
+#  addMarkers(
+#    lng=174.768,
+#    lat=-36.852,#
+#    popup="The birthplace of R"
+ # )
 ```
 
 Test spacing below widget.
