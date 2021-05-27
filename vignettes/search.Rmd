@@ -60,3 +60,16 @@ If you are building your own custom Docsearch index, you can also include your D
 See the [pkgdown configuration](https://github.com/r-lib/pkgdown/blob/master/pkgdown/_pkgdown.yml#L7-L11) for a functional search configuration.
 
 Once this configuration is complete, you should find a search bar after re-building your site. After search is enabled, pressing `shift` + `/` (i.e., "?") will move the focus to the search bar.
+
+```{r}
+library(leaflet)
+
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(
+    lng=174.768,
+    lat=-36.852,
+    popup="The birthplace of R"
+  )
+```
+```
