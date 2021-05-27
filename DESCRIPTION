@@ -51,7 +51,8 @@ Suggests:
     rticles,
     rsconnect,
     rstudioapi,
-    markdown
+    markdown,
+    webshot
 VignetteBuilder: knitr
 SystemRequirements: pandoc
 RoxygenNote: 7.1.1
